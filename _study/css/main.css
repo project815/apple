@@ -142,7 +142,19 @@ a {
   height: 7rem;
   background: darkorange;
 }
-
+.sticky-elem {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+#show-scene-01 #scroll-section-01 .sticky-elem,
+#show-scene-02 #scroll-section-02 .sticky-elem,
+#show-scene-03 #scroll-section-03 .sticky-elem,
+#show-scene-04 #scroll-section-04 .sticky-elem {
+  display: block;
+}
 @media (min-width: 1024px) {
   #scroll-section-01 h1 {
     font-size: 9vw;
