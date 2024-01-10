@@ -21,10 +21,18 @@ a {
 }
 
 .global-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
   height: 44px;
   padding: 0 1rem;
 }
 .local-nav {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  width: 100%;
   height: 56 px;
   padding: 0 1rem;
 }
@@ -57,8 +65,10 @@ a {
 }
 
 .scroll-section {
+  border: 3px solid red;
   padding-top: 50vh;
 }
+
 #scroll-section-01 h1 {
   font-size: 4rem;
   font-weight: bold;
