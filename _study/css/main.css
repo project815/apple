@@ -159,10 +159,10 @@ a {
   left: 0px;
   width: 100%;
 }
-#show-scene-01 #scroll-section-01 .sticky-elem,
-#show-scene-02 #scroll-section-02 .sticky-elem,
-#show-scene-03 #scroll-section-03 .sticky-elem,
-#show-scene-04 #scroll-section-04 .sticky-elem {
+#show-scene-0 #scroll-section-01 .sticky-elem,
+#show-scene-1 #scroll-section-02 .sticky-elem,
+#show-scene-2 #scroll-section-03 .sticky-elem,
+#show-scene-3 #scroll-section-04 .sticky-elem {
   display: block;
 }
 @media (min-width: 1024px) {
